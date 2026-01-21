@@ -47,7 +47,7 @@ stages:
   - deployment: VMDeploy
     displayName: Web deployment
     environment: 
-      name: react_nginx_env
+      name: tictactoe
       resourceType: VirtualMachine
     strategy:
       runOnce:
